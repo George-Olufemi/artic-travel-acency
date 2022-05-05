@@ -1,6 +1,6 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
-import BodyImage from './BodyImage/img.png';
+import picture2 from './picture2/img.png';
 
 
 function Body() {
@@ -8,7 +8,7 @@ function Body() {
     <React.Fragment>
         <div>
             <Zoom big>
-            <img src={BodyImage} alt="Company Logo's" />
+                <img src={picture2} alt="Company Logo's" />
             </Zoom>
         </div>
         <Zoom big>
