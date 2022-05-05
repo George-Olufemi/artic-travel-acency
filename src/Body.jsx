@@ -1,21 +1,27 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
+import BodyImage from './BodyImage/img.png';
 
 
 function Body() {
   return (
     <React.Fragment>
-        <Zoom>
+        <div>
+            <Zoom big>
+            <img src={BodyImage} alt="Company Logo's" />
+            </Zoom>
+        </div>
+        <Zoom big>
             <div className="mt-10 mb-10 md:mb-14 text-center text-2xl md:text-5xl font-semibold md:bold">
                 <h1>Creating the best <span className="text-blue-600">ice-cold!</span> experiences<br />you would never forget.</h1>
             </div>
         </Zoom>
-        <Zoom>
+        <Zoom big>
             <div className="text-center text-gray-500 text-lg md:text-3xl mb-20 md:mb-28">
                 <h1>Would you explore nature paradise in the world, find the<br /> best destination in the world with us.</h1>
             </div>
         </Zoom>
-        <Zoom>
+        <Zoom big>
             <div className=" flex justify-center items-center text-center text-2xl md:text-5xl font-semibold md:bold mb-20 md:mb-28">
                 <h1 className="mr-4">View Regions available</h1>
                 <div>

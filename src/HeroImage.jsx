@@ -1,7 +1,7 @@
 import React from 'react';
-import image1 from './image1/woman1.jpeg';
-import image2 from './image2/man1.jpeg';
-import picture from './picture/image3.jpg';
+import image1 from './image1/Frame 44.png';
+import image2 from './image2/Frame 43.png';
+import picture from './picture/Frame 42.png';
 import Slide from 'react-reveal/Slide';
 
 function HeroImage() {

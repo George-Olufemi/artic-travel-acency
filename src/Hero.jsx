@@ -16,7 +16,7 @@ function Hero() {
                 <button className="bg-blue-600 px-6 mt-3 text-white text-2xl py-3 rounded-2xl hover:bg-blue-500 transition-all cursor-pointer">Book here</button>
               </Wobble>
           </div>
-          <div className="flex absolute top-0 pl-24 mt-4">
+          <div className="flex justify-between absolute top-0 pl-24 mt-4">
               <div className="flex">
                   <div className="mr-16">
                     <Slide top>
